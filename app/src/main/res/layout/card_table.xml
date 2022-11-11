@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardViewTable"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageViewTable"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_weight="0.20"
+            app:srcCompat="@drawable/chelsea" />
+
+        <TextView
+            android:id="@+id/textViewNombreTable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.55"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Nombre de equipo"
+            android:textColor="@color/principal_blue" />
+
+        <TextView
+            android:id="@+id/textViewPtsTable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:layout_weight="0.55"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Pts"
+            android:textAlignment="textEnd"
+            android:textColor="@color/principal_blue" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

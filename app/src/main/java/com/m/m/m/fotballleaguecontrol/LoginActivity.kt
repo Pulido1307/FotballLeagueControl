@@ -16,5 +16,11 @@ class LoginActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
+
+        buttonOlvidastePass.setOnClickListener {
+            val intent: Intent = Intent(this@LoginActivity, AdminMainActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 }
